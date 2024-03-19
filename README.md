@@ -15,7 +15,11 @@ Part 3 - JavaScript Games and Database Interactivity (2-3 weeks)
 Part 4 - Push to AWS / Public IP Address (if time permits)
 
 ## Repository Components and General File Organization
-
+```
+~/OrcanizedChaosWebsite
+  |-- app.py
+  |-- app.py
+```
 
 ## Key Changes
 Flask for backend development
