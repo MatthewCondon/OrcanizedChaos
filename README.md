@@ -17,7 +17,24 @@ Part 4 - Push to AWS / Public IP Address (if time permits)
 ## Repository Components and General File Organization
 ```
 ~/OrcanizedChaosWebsite
-  |-- app.py
+  |-- Documents
+    |-- ChangeLog.md
+    |-- Database.md
+    |-- Instructions.md
+  |-- static
+    |-- css
+    |-- img
+    |-- js
+  |-- templates
+    |-- asteroids.html
+    |-- feedback.html
+    |-- home.html
+    |-- invaders.html
+    |-- login.html
+    |-- original.html
+    |-- profile.html
+    |-- signup.html
+  |-- README.md
   |-- app.py
 ```
 
