@@ -2,9 +2,9 @@
 
 This application requires multiple installations on your machine to ensure that it works properly. Run the below command:
 
-
+```
 pip install Flask Flask-Login Flask-Bcrypt mysql-connector-python
-
+```
 
 ## Flask App
 
@@ -22,7 +22,7 @@ The next phase of the Flask Application is ensuring that all pages are accessibl
 
 Each page route will have a general format, as seen below:
 
-
+```
 @app.route('/')
 
 def function():
@@ -30,7 +30,7 @@ def function():
   // Conditions and function work
   
   return render_template('page.html')
-  
+  ```
 
 
 After all page routes have been defined, the creator is able to begin working on the signup and login/logout functions.
@@ -81,8 +81,8 @@ if __name__ == '__main__':
 
 In the terminal, simply execute the following command to begin the system:
 
-
+```
 python3 app.py
-
+```
 
 ## Note - comments were added throughout app.py to assist in overall organization of the system.
