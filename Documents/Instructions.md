@@ -26,7 +26,7 @@ Each page route will have a general format, as seen below:
 
 def function():
 
-  # Conditions and function work
+  // Conditions and function work
   
   return render_template('page.html')
   
