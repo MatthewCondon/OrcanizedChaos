@@ -1,1 +1,24 @@
+## Pip Install Requirements
+This application requires multiple installations on your machine to ensure that it works properly. Run the below command:
 
+pip install Flask Flask-Login Flask-Bcrypt mysql-connector-python
+
+## Flask App
+Now that all tools have been properly installed on the system, the rest of the flask application must be set up. It is recommended to break this into four different phases: Importing Tools, Page Routes, Signup Features, and Login Features
+
+(1) Importing Tools
+First, write all the import statements for the Flask Application. These tools are essential to the rest of the Flask application. Then, you must instantiate the Flask Object and Database Instance
+
+(2) Page Routes
+
+
+(3) Signup Features
+
+
+(4) Login Features
+
+
+## Running the Program
+
+
+## Note - comments were added throughout app.py to assist in overall organization of the system.
