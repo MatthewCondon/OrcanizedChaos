@@ -22,6 +22,7 @@ The next phase of the Flask Application is ensuring that all pages are accessibl
 
 Each page route will have a general format, as seen below:
 
+
 @app.route('/')
 
 def function():
@@ -30,6 +31,7 @@ def function():
   
   return render_template('page.html')
   
+
 
 After all page routes have been defined, the creator is able to begin working on the signup and login/logout functions.
 
