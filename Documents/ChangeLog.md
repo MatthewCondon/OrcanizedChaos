@@ -24,7 +24,7 @@ Uploaded HTML files for Home with CSS added to it.
 
 Completed login and signup features with connections to a MySQL Database.
 
-Refined various page references around the site pages.
+Refined various page references around the site.
 
 Created a new Github repository for organizational purposes.
 
