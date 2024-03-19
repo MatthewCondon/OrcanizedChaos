@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title> Orcanized Chaos </title>
+      <!-- To change domain image, use 32px x 32px png -->
+      <link rel="icon" href="../images/Logo.png" type="photos/x-icon">
+  </head>  
+  
+  <body>
+    <form method="POST" action="/login">
+      <label for="username">Username:</label>
+      <input type="text" name="username" placeholder="Enter here">
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="Enter here">
+      <br>
+      <button type="submit">Login</button>
+    </form>
+   <br><br>
+    Don't have an account? <a href="{{ url_for('signup')}}">Sign Up</a>
+
+  </body>
+  
+<center>
+<footer>
+  <p>Brought to you by LT William's Mighty Minions</p>
+</footer>
+</center>
+  
+</html>
