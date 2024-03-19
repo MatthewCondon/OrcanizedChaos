@@ -20,7 +20,7 @@ Uploaded HTML files for Home with CSS added to it.
 
 
 
-18 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
+## 18 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
 
 Completed login and signup features with connections to a MySQL Database.
 Refined various page references around the site pages.
