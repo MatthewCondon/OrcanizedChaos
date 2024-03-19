@@ -74,9 +74,9 @@ b. Automatically push the user back to the login page.
 After designing the Flask application, configure it to run at a certain location. The command to run it on the localhost in port 4444 is below:
 
 
-if __name__ == '__main__':
+```if __name__ == '__main__':
 
-    app.run(host='0.0.0.0', port=4444, debug=True)
+    app.run(host='0.0.0.0', port=4444, debug=True)```
 
 
 In the terminal, simply execute the following command to begin the system:
