@@ -1,20 +1,20 @@
-Change Log
+# Change Log
 
 
 
-26 FEB 24     Sontino Allentuck <sontino.f.allentuck@uscga.edu>
+## 26 FEB 24     Sontino Allentuck <sontino.f.allentuck@uscga.edu>
 
 Uploaded initial HTML webpage files.
 
 
 
-09 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
+## 09 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
 
 Uploaded edited HTML files with increased text descriptions for each.
 
 
 
-18 MAR 24     Sontino Allentuck <sontino.f.allentuck@uscga.edu>
+## 18 MAR 24     Sontino Allentuck <sontino.f.allentuck@uscga.edu>
 
 Uploaded HTML files for Home with CSS added to it.
 
