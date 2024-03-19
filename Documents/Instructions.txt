@@ -31,10 +31,25 @@ b. Create the cursor connection to the database. This, in coordination with the 
 c. Determine if the account already exists and act accordingly.
 
 (4) Login Features
-One important feature of this function is setting the methods. This page requires GET and POST for full functionality.
+One important feature of this function is setting the methods. This page requires GET and POST for full functionality. Additionally, this phase requires two functions: Login and Logout.
 
+Login:
+a. Determine if the request method was POST and that it contained the required information
+b. Create the cursor connection to the database. This, in coordination with the execute() and fetchone() commands, will allow the page to interact with the database. These commands allow the user to compare information in the darabase without manually logging in every time.
+c. Determine if the account credentials are valid and act accordingly.
+
+Logout:
+a. Pop all session details. This clears all user session data.
+b. Automatically push the user back to the login page.
 
 ## Running the Program
+After designing the Flask application, configure it to run at a certain location. The command to run it on the localhost in port 4444 is below:
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=4444, debug=True)
+
+In the terminal, simply execute the following command to begin the system:
+
+python3 app.py
 
 ## Note - comments were added throughout app.py to assist in overall organization of the system.
