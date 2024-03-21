@@ -81,6 +81,19 @@
 </head>  
 
 <body>
+
+  <div id = "NavBarDiv">
+    <ul id = "NavBar">
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('home')}}">Home</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('asteroids')}}">Asteroid Orcas</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('invaders')}}">Invading Ships</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('origins')}}">New Concept Game 3</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('feedback')}}">Feedback</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('profile')}}">My Account</a></li>
+    </ul>
+  </div>
+<div id = "HeadingSpace"></div>
+  
   <form method="POST" action="/signup">
     <label for="username">Username:</label>
     <input type="text" name="username" placeholder="Enter here">
