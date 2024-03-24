@@ -45,3 +45,5 @@ Updated app.py for feedback form interactivity
 Created thankyou.html as a response to the feedback form submission
 
 Created original.html
+
+Added new requirements of current iteration to Project
