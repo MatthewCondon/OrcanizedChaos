@@ -39,3 +39,7 @@ Edited Documentation Files and transitioned them from .txt to .md files for orga
 Updated HTML and CSS across various pages
 
 Implemented new table to MySQL Database for user feedback
+
+Updated app.py for feedback form interactivity
+
+Created thankyou.html as a response to the feedback form submission
