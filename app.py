@@ -133,9 +133,34 @@ def origins():
     return render_template('original.html')
 
 
+# Thank You Page
+@app.route('/thankyou')
+def thankyou():
+    return render_template('thankyou.html')
+    
+
 # Feedback Form
-@app.route('/feedback')
+@app.route('/feedback', methods=['GET','POST'])
 def feedback():
+    if request.method == 'POST' and 'email' in request.form and 'subject' in request.form and 'message' in request.form:
+        email = request.form['email']
+        subject = request.form['subject']
+        message = request.form['message']
+
+        # Establish connection to MySQL Database
+        mysqlcursor = mydb.cursor()
+
+        # Insert into database
+        mysqlcursor.execute('INSERT INTO feedback VALUES(NULL, %s, %s, %s)',(email, subject, message))
+        mydb.commit()
+
+        # Close cursor connection
+        mysqlcursor.close()
+
+        # Direct user to thank you page
+        return redirect(url_for('thankyou'))
+
+    # In any other case, direct user to feedback page
     return render_template('feedback.html')
 
 
