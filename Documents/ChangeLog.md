@@ -43,3 +43,5 @@ Implemented new table to MySQL Database for user feedback
 Updated app.py for feedback form interactivity
 
 Created thankyou.html as a response to the feedback form submission
+
+Created original.html
