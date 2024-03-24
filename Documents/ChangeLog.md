@@ -32,3 +32,10 @@ Added instructions for Database Configuration and Flask Application Creation.
 
 Edited Documentation Files and transitioned them from .txt to .md files for organizational purposes.
 
+
+
+## 23 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
+
+Updated HTML and CSS across various pages
+
+Implemented new table to MySQL Database for user feedback
