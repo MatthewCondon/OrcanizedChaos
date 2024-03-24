@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Orcanized Chaos </title>
+  <!-- To change domain image, use 32px x 32px png -->
+  <link rel="icon" href="../images/Logo.png" type="photos/x-icon">
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+
+      background-color: #00CCFF;
+      color: #FFFFFF;
+      font-family: "Press Start 2P", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      height: 100vh;
+
+    }
+
+    #HeadingSpace {
+
+      height: 10vh;
+
+    }
+
+    #NavBarDiv {
+
+      width: 100%;
+      height: 9vh;
+
+    }
+
+    #NavBar {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      border-bottom: 3px solid white;
+      width: 100%;
+      background-color: #0000FF;
+
+    }
+
+    .menu {
+
+     float:left;
+     width: 16%;
+     
+   }
+
+   .menu_item {
+
+    display: block;
+    padding: 8px 10px 8px 10px;
+    margin: 0px;
+    text-align:center;
+    align-self: "flex-end";
+    font-size: 1.5vw;
+    text-decoration: none;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    height: 9vh;
+
+  }
+
+  .menu_item:hover {
+
+    background-color: #000000;
+
+  }
+
+  /* Form CSS */
+
+  input {
+
+    border: 2px solid blue;
+    background-color: #00CCFF;
+
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+
+  label {
+    display: block; /* To stack the items */
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],input[type="password"] {
+    width = 100%;
+    border: 3px solid #0000FF;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Press Start 2P", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  button[type="submit"] {
+    width: 20%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  button[type="submit"]:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+
+</style>
+
+</head>  
+
+<body>
+
+  <div id = "NavBarDiv">
+    <ul id = "NavBar">
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('home')}}">Home</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('asteroids')}}">Asteroid Orcas</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('invaders')}}">Invading Ships</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('origins')}}">New Concept Game 3</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('feedback')}}">Feedback</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('profile')}}">My Account</a></li>
+    </ul>
+  </div>
+  <center>
+    <div class="flex-container9">
+      <div>
+        <h1> <br> <font size="+10"> Thank You      
+          <br><br>
+        </font>
+        We really appreciate your feedback!
+      </h1>
+  </div>
+</center>
+
+<footer>
+  <center>
+    <p><br><br>Brought to you by LT William's Mighty Minions</p>
+  </center>
+</footer>
+
+</body>
+</html>
