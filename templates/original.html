@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title> Orcanized Chaos </title>
+      <!-- To change domain image, use 32px x 32px png -->
+      <link rel="icon" href="../images/Logo.png" type="photos/x-icon">
 
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+      body {
+
+        background-color: #00CCFF;
+        color: #FFFFFF;
+        font-family: "Press Start 2P", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        height: 100vh;
+
+      }
+
+      #HeadingSpace {
+
+        height: 10vh;
+
+      }
+
+      #NavBarDiv {
+
+        width: 100%;
+        height: 9vh;
+
+      }
+
+      #NavBar {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        border-bottom: 3px solid white;
+        width: 100%;
+        background-color: #0000FF;
+
+      }
+
+      .menu {
+
+       float:left;
+       width: 16%;
+       
+      }
+
+      .menu_item {
+
+        display: block;
+        padding: 8px 10px 8px 10px;
+        margin: 0px;
+        text-align:center;
+        align-self: "flex-end";
+        font-size: 1.5vw;
+        text-decoration: none;
+        background-color: #0000FF;
+        color: #FFFFFF;
+        height: 12vh;
+
+      }
+
+      .menu_item:hover {
+
+        background-color: #000000;
+
+      }
+
+
+    </style>
+  </head>  
+  
+  <body>
+  <div id = "NavBarDiv">
+    <ul id = "NavBar">
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('home')}}">Home</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('asteroids')}}">Orca Onslaught</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('invaders')}}">Aquatic Assault</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('origins')}}">New Concept Game 3</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('feedback')}}">Feedback</a></li>
+      <li class = "menu"><a class = "menu_item" href="{{ url_for('profile')}}">My Account</a></li>
+    </ul>
+  </div>
+<div id = "HeadingSpace"></div>
+    <center>
+    <div class="flex-container9">
+
+      <div><h1> <font size="+7"> Original: Title       
+        <br><br>
+        </font>
+        attention getter
+        <font size="-1"> 
+          <br><br>
+          explanation, pre story
+          <br>
+          cool question
+          <br><br>
+          game here
+        </font>
+        <br><br>
+        </h1></div>
+
+  </body>
+</center>
+  
+<center>
+<footer>
+  <p>Brought to you by LT William's Mighty Minions</p>
+</footer>
+</center>
+  
+</html>
