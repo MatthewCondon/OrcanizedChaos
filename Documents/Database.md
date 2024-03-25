@@ -10,7 +10,7 @@ After creating the database, run the following command:
 ```
 USE orca_users;
 ```
-This command allows you to focus on using this specific database.
+This command allows you to focus on using this specific database. You will now be able to make specific changes to this database, including adding new tables and making edits to the entries.
 
 ## Configuring the Database
 
@@ -42,7 +42,7 @@ email : used to store email
 
 subject : used to store subject
 
-message : used to store message; can be as long as possible due to LONGTEXT feature
+message : used to store message; can be as long as possible due to LONGTEXT feature for extended data entry
 
 
-Now that the tables were created, they were ready to hold data assuming that the Flask Application was correct.
+Now that the tables were created, they were ready to hold data assuming that the Flask Application was correct. An important aspect of the Flask application is the mysqlcursor object, which allows that application to specifically interact with and update the MySQL database as necessary.
