@@ -7,7 +7,7 @@
 from flask import *
 from flask_login import UserMixin, LoginManager, login_user, logout_user, login_required
 from flask_bcrypt import Bcrypt # Will be used for password encryption/decryption
-# MySQL Toolswhat other
+# MySQL Tools
 import mysql.connector
 import re, hashlib
 
