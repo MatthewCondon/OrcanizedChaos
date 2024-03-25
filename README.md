@@ -42,7 +42,11 @@ Project phases further elaborated on during Phase Documents and Project Tab.
 
 ## Key Changes
 Flask for backend development
+
 MySQL Database
+
 Timeline Goals
+
 ChangeLog Creation
+
 Documentation Files
