@@ -53,3 +53,9 @@ Updated app.py for feedback form interactivity
 ## 25 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
 
 Updated various documentation files for readability and clarity
+
+Created Project_Phases.md in Documentation Files
+
+Created Organization.md in Documentation Files
+
+Created Key_Changes.md in Documentation Files
