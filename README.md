@@ -14,6 +14,8 @@ Part 3 - JavaScript Games and Database Interactivity (2-3 weeks)
 
 Part 4 - Push to AWS / Public IP Address (if time permits)
 
+Project phases further elaborated on during Phase Documents and Project Tab.
+
 ## Repository Components and General File Organization
 ```
 ~/OrcanizedChaosWebsite
@@ -43,3 +45,4 @@ Flask for backend development
 MySQL Database
 Timeline Goals
 ChangeLog Creation
+Documentation Files
