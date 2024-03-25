@@ -79,7 +79,6 @@ def profile():
         return redirect(url_for('login'))  # Redirect to login page if not logged in
 
 
-
 # Used for signing up
 @app.route('/signup', methods = ['GET','POST']) # Specify HTTP methods allowed while on this page
 def signup():
