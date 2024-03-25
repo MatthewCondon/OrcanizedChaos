@@ -46,10 +46,10 @@ Created original.html
 
 Added new requirements of current iteration to Project
 
+Updated app.py for feedback form interactivity
+
 
 
 ## 25 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
 
 Updated various documentation files for readability and clarity
-
-Updated app.py for feedback form interactivity
