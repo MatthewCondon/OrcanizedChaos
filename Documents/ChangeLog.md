@@ -40,15 +40,16 @@ Updated HTML and CSS across various pages
 
 Implemented new table to MySQL Database for user feedback
 
-
-
-## 25 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
-
-Updated various documentation files for readability and clarity
-Updated app.py for feedback form interactivity
-
 Created thankyou.html as a response to the feedback form submission
 
 Created original.html
 
 Added new requirements of current iteration to Project
+
+
+
+## 25 MAR 24     Matthew Condon <matthew.t.condon@uscga.edu>
+
+Updated various documentation files for readability and clarity
+
+Updated app.py for feedback form interactivity
